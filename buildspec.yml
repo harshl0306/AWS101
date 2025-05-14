@@ -9,6 +9,6 @@ phases:
       - echo Build complete.
 artifacts:
   files:
-    - target/AWS101-0.0.1-SNAPSHOT.jar
+    - target/AWS101.jar
   discard-paths: yes
 
