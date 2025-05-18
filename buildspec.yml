@@ -1,12 +1,12 @@
 version: 0.2
 
 phases:
-    build:
-      commands:
-        - echo packaging JAR file...
-        - mvm clean package
-        - cp target/AWS101.jar application.jar
+  build:
+    commands:
+      - echo Packaging JAR file...
+      - mvn clean package
+      - cp target/AWS101.jar application.jar  # Rename for clarity
 
-  artifacts:
-    files:
-      - application.jar
+artifacts:
+  files:
+    - application.jar
